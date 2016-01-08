@@ -1,7 +1,5 @@
 #!/usr/bin/env python
 
-__author__ = 'martin'
-
 # California region
 
 import boto.ec2
