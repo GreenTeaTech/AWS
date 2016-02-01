@@ -29,6 +29,6 @@ raw_input("Press enter to delete both the object and the bucket...")
 print "Deleting the object."
 k.delete()
 
-# Now that the bucket is empty, we can delete it.
+# Now that the bucket is empty, we can delete it
 print "Deleting the bucket."
 s3.delete_bucket(bucket_name)
